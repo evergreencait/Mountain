@@ -1,3 +1,5 @@
 <h2>Passes and Daily Tickets</h2>
 
-<p>All our fine products will be listed here shortly!</p>
+<div *ngFor="let pass of passes">
+    <h3><em>{{pass.title}}</em> : {{pass.description}}</h3>
+</div>
